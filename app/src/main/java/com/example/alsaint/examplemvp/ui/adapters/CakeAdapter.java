@@ -1,4 +1,4 @@
-package com.example.alsaint.examplemvp.ui.adatpers;
+package com.example.alsaint.examplemvp.ui.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

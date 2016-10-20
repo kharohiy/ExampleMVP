@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import com.example.alsaint.examplemvp.R;
 import com.example.alsaint.examplemvp.application.CakeApplication;
 import com.example.alsaint.examplemvp.server.models.CakeObj;
-import com.example.alsaint.examplemvp.ui.adatpers.CakeAdapter;
+import com.example.alsaint.examplemvp.ui.adapters.CakeAdapter;
 import com.example.alsaint.examplemvp.ui.presenters.CakePresenter;
 
 import java.util.List;
@@ -20,7 +20,7 @@ import javax.inject.Inject;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class CakeFragment extends BaseFragment implements CakePresenter.MvpView  {
+public class CakeFragment extends BaseFragment implements CakePresenter.MvpView {
 
     @BindView(R.id.cake_list)
     RecyclerView recyclerView;
